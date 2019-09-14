@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Dmitry Nogochev](https://up.htmlacademy.ru/htmlcss/26/user/207183).
-* Наставник: [Александр Кошара](https://up.htmlacademy.ru/htmlcss/26/user/169035).
+* Наставник: [Арсений Березин](https://up.htmlacademy.ru/htmlcss/26/user/263537).
 
 ---
 
