@@ -53,7 +53,52 @@
 
     <section>
       <h2>Фильтр особенностей</h2>
-      <!-- Здесь будет форма -->
+      <form action="https://echo.htmlacademy.ru" method="GET">
+        <hr>
+        <label for="cost-filter">Стоимость</label>
+        0 <input type="range" name="cost" id="cost-filter" value="0" min="0" max="5000"> 5000
+        <hr>
+        <fieldset>
+          <legend>Цвет</legend>
+          <ul>
+            <li>
+              <label for="black-color">Чёрный</label>
+              <input type="checkbox" name="black-filter" id="black-color" checked>
+            </li>
+            <li>
+              <label for="white-color">Белый</label>
+              <input type="checkbox" name="white-filter" id="white-color">
+            </li>
+            <li>
+              <label for="blue-color">Синий</label>
+              <input type="checkbox" name="blue-filter" id="blue-color" checked>
+            </li>
+            <li>
+              <label for="red-color">Красный</label>
+              <input type="checkbox" name="red-filter" id="red-color" checked>
+            </li>
+            <li>
+              <label for="pink-color">Розовый</label>
+              <input type="checkbox" name="pink-filter" id="pink-color">
+            </li>
+          </ul>
+        </fieldset>
+        <hr>
+        <fieldset>
+          <legend>Bluetooth</legend>
+          <ul>
+            <li>
+              <label for="bluetooth-yes">Есть</label>
+              <input type="radio" value="bluetooth-yes" name="bluetooth" id="bluetooth-yes" checked>
+            </li>
+            <li>
+              <label for="bluetooth-no">Нет</label>
+              <input type="radio" value="bluetooth-no" name="bluetooth" id="bluetooth-no">
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Отправить</button>
+      </form>
     </section>
 
     <section>

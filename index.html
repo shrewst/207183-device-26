@@ -103,11 +103,19 @@
 
     <section>
       <h2>Напишите нам</h2>
-      <!-- Здесь будет форма -->
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <label for="name-field">Ваше имя:</label>
+        <input type="text" name="name" id="name-field" placeholder="Имя Фамилия"><br>
+        <label for="email-field">Ваш e-mail:</label>
+        <input type="email" name="email" id="email-field" placeholder="email@example.com"><br>
+        <label for="text-field">Текст письма:</label><br>
+        <textarea name="text" id="text-field" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+      </form>
     </section>
 
     <section>
       <h2>Как до нас добраться</h2>
+      <img src="img/map-big.jpg" width="960" height="559" alt="Интернет-магазин 'Девайс' находится по адресу ул. Строителей, д. 15, Москва">
     </section>
   </body>
 </html>
